@@ -97,4 +97,4 @@ app.get('/pantalla', (req, res) => {
 app.get('/api/arrivals', (req, res) => res.json(arrivals));
 app.get('/api/guests', (req, res) => res.json(guests));
 
-http.listen(process.env.PORT || 3000, () => console.log('🚀 Servidor corriendo'));
+http.listen(process.env.PORT || 8080, () => console.log('🚀 Servidor corriendo'));
