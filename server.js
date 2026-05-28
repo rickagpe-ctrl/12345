@@ -97,4 +97,4 @@ app.get('/pantalla', (req, res) => {
 app.get('/api/arrivals', (req, res) => res.json(arrivals));
 app.get('/api/guests', (req, res) => res.json(guests));
 
-http.listen(3000, () => console.log('🚀 Servidor corriendo en puerto 3000'));
+http.listen(process.env.PORT || 3000, () => console.log('🚀 Servidor corriendo'));
