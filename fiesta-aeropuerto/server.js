@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
 const guests = [
-  { id: "g01", name: "Ana García",       emoji: "🎉", color: "#6C63FF", photo: "https://drive.google.com/uc?export=view&id=19yIXbBy4VWJJVwHT9GYZ78_oa9fV4ica" },
+  { id: "g01", name: "Jose Ricardo",       emoji: "🎉", color: "#6C63FF", photo: "https://drive.google.com/file/d/1DgaYjL5hyX3raL2DmBeBbZoY_AACWnng/view?usp=share_link" },
   { id: "g02", name: "Carlos López",     emoji: "✈️",  color: "#FF6584", photo: "" },
   { id: "g03", name: "María Rodríguez",  emoji: "🌟",  color: "#43B89C", photo: "" },
   { id: "g04", name: "José Martínez",    emoji: "🎊",  color: "#F5A623", photo: "" },
