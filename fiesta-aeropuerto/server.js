@@ -10,6 +10,7 @@ app.use(express.json());
 // Lista de invitados - edita aquí con tus 25 amigos
 const guests = [
   { id: "g01", name: "Jose Ricardo Almaguer Hernandez",       emoji: "🎉", color: "#6C63FF" },
+  photo: "https://drive.google.com/file/d/19yIXbBy4VWJJVwHT9GYZ78_oa9fV4ica/view?usp=share_link" },
   { id: "g02", name: "Carlos López",     emoji: "✈️",  color: "#FF6584" },
   { id: "g03", name: "María Rodríguez",  emoji: "🌟",  color: "#43B89C" },
   { id: "g04", name: "José Martínez",    emoji: "🎊",  color: "#F5A623" },
