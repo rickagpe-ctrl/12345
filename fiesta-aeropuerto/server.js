@@ -3,7 +3,8 @@ const app = express();
 const http = require('http').createServer(app);
 const io = require('socket.io')(http, { cors: { origin: "*" } });
 
-app.use(express.static('public'));
+const path = require('path');
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
 // Lista de invitados - edita aquí con tus 25 amigos
@@ -90,7 +91,7 @@ app.get('/checkin/:id', (req, res) => {
 
 // Pantalla del proyector
 app.get('/pantalla', (req, res) => {
-  res.sendFile(__dirname + '/public/pantalla.html');
+  res.sendFile(path.join(__dirname, 'public', 'pantalla.html'));
 });
 
 // API para obtener llegadas
