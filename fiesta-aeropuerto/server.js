@@ -174,3 +174,4 @@ app.get('/debug', (req, res) => {
   res.json(files);
 });
 http.listen(process.env.PORT || 8080, () => console.log('🚀 Servidor corriendo'));
+
