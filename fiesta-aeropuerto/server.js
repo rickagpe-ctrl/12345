@@ -37,7 +37,7 @@ const guests = [
 ];
 
 const arrivals = [];
-
+app.get('/test', (req, res) => res.send('Servidor funcionando correctamente'));
 // Página de bienvenida para el invitado (se abre al escanear el QR)
 app.get('/checkin/:id', (req, res) => {
   const guest = guests.find(g => g.id === req.params.id);
