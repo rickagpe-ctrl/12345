@@ -97,5 +97,13 @@ app.get('/pantalla', (req, res) => {
 // API para obtener llegadas
 app.get('/api/arrivals', (req, res) => res.json(arrivals));
 app.get('/api/guests', (req, res) => res.json(guests));
-
+app.get('/debug', (req, res) => {
+  const fs = require('fs');
+  const files = {
+    dirname: __dirname,
+    public: fs.existsSync(path.join(__dirname, 'public')) ? fs.readdirSync(path.join(__dirname, 'public')) : 'NO EXISTE',
+    root: fs.readdirSync(__dirname)
+  };
+  res.json(files);
+});
 http.listen(process.env.PORT || 8080, () => console.log('🚀 Servidor corriendo'));
