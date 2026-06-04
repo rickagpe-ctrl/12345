@@ -9,7 +9,7 @@ app.use(express.json());
 
 const guests = [
   { id: "g01", name: "Martha Mendez Palomares",       emoji: "🎉", color: "#6C63FF", photo: "https://cdn.phototourl.com/member/2026-06-04-c07af0d5-75b4-45f4-9167-f945f4e30635.jpg" },
-  { id: "g02", name: "Carlos López",     emoji: "✈️",  color: "#FF6584", photo: "" },
+  { id: "g02", name: "Sonia",     emoji: "✈️",  color: "#FF6584", photo: "https://cdn.phototourl.com/member/2026-06-04-fb5643e0-d402-4abe-b7e1-18f28a67641c.jpg" },
   { id: "g03", name: "María Rodríguez",  emoji: "🌟",  color: "#43B89C", photo: "" },
   { id: "g04", name: "José Martínez",    emoji: "🎊",  color: "#F5A623", photo: "" },
   { id: "g05", name: "Laura Hernández",  emoji: "💫",  color: "#E91E8C", photo: "" },
