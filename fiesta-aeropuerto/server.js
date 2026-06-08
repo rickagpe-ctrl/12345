@@ -27,12 +27,7 @@ const guests = [
   { id: "g17", name: "Roberto Carlos López Salas",   emoji: "🎀",  color: "#00BCD4", photo: "https://cdn.phototourl.com/member/2026-06-08-4890f8a1-1c88-4866-8b16-608ebbe164a3.jpg" },
   { id: "g18", name: "Blanca Leticia Fuentes González",   emoji: "🔥",  color: "#FF6F00", photo: "https://cdn.phototourl.com/member/2026-06-08-465cffb8-8a6f-4951-be46-69d2dfe254fc.jpg" },
   { id: "g19", name: "Gabriela Ortiz",   emoji: "💎",  color: "#7B1FA2", photo: "" },
-  { id: "g20", name: "Emilio Reyes",     emoji: "🎭",  color: "#1976D2", photo: "" },
-  { id: "g21", name: "Valeria Moreno",   emoji: "🌻",  color: "#388E3C", photo: "" },
-  { id: "g22", name: "Alejandro Silva",  emoji: "🎪",  color: "#C62828", photo: "" },
-  { id: "g23", name: "Mariana Núñez",    emoji: "🌙",  color: "#AD1457", photo: "" },
-  { id: "g24", name: "Rodrigo Pérez",    emoji: "🎮",  color: "#0288D1", photo: "" },
-  { id: "g25", name: "Fernanda Soto",    emoji: "🦄",  color: "#6A1B9A", photo: "" },
+
 ];
 
 const arrivals = [];
