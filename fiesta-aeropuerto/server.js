@@ -11,7 +11,7 @@ const guests = [
   { id: "g01", name: "Martha Mendez Palomares",       emoji: "🎉", color: "#6C63FF", photo: "https://cdn.phototourl.com/member/2026-06-04-c07af0d5-75b4-45f4-9167-f945f4e30635.jpg" },
   { id: "g02", name: "Sonia Segundo Landeros",     emoji: "✈️",  color: "#FF6584", photo: "https://cdn.phototourl.com/member/2026-06-04-fb5643e0-d402-4abe-b7e1-18f28a67641c.jpg" },
   { id: "g03", name: "Ofelia Galvan Hernandez",  emoji: "🌟",  color: "#43B89C", photo: "https://cdn.phototourl.com/member/2026-06-08-b7e241d4-8c97-4d96-bef4-6aa0649bb610.jpg" },
-  { id: "g04", name: "Aa Maria Treviño Gonzalez",    emoji: "🎊",  color: "#F5A623", photo: "https://cdn.phototourl.com/member/2026-06-04-67808865-f2fa-4778-bb71-eb745698de22.jpg" },
+  { id: "g04", name: "Ana Maria Treviño Gonzalez",    emoji: "🎊",  color: "#F5A623", photo: "https://cdn.phototourl.com/member/2026-06-04-67808865-f2fa-4778-bb71-eb745698de22.jpg" },
   { id: "g05", name: "Margarita Catalina Urbina Menchaca",  emoji: "💫",  color: "#E91E8C", photo: "https://cdn.phototourl.com/member/2026-06-04-cc11fab5-699b-46f9-b1db-48a360f92107.jpg" },
   { id: "g06", name: "Nancy Elizabeth Soriano Saavedra",    emoji: "🚀",  color: "#00BCD4", photo: "https://cdn.phototourl.com/member/2026-06-04-8a90ad75-b7d0-4553-8573-faff892be3e0.jpg" },
   { id: "g07", name: "Mirta Alicia García Madrigal",    emoji: "🌈",  color: "#9C27B0", photo: "https://cdn.phototourl.com/member/2026-06-04-3bdc8b0a-a948-462a-b139-ef087ac8dc85.jpg" },
