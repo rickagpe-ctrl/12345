@@ -52,7 +52,7 @@ body { background: #0a0a1a; font-family: -apple-system, BlinkMacSystemFont, 'Seg
 <body>
 <div class="header">
   <div class="header-title"><span>✈️</span> Panel de llegadas</div>
-  <div class="counter"><strong id="count">0</strong> / 25 invitados</div>
+  <div class="counter"><strong id="count">0</strong> / 18 invitados</div>
 </div>
 <div class="progress-bar"><div class="progress-fill" id="progress" style="width:0%"></div></div>
 
@@ -75,7 +75,7 @@ body { background: #0a0a1a; font-family: -apple-system, BlinkMacSystemFont, 'Seg
 
 <script>
 const socket = io();
-const TOTAL = 25;
+const TOTAL = 18;
 
 function initials(name) { return name.split(' ').map(n=>n[0]).join('').slice(0,2).toUpperCase(); }
 
